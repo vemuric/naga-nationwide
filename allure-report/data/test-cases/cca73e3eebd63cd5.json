@@ -1,0 +1,198 @@
+{
+  "uid" : "cca73e3eebd63cd5",
+  "name" : "I should land on \"Start your remortgage application\" page containing \"start_your_remortgage_application\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I should land on \"Start your remortgage application\" page containing \"start_your_remortgage_application\"",
+  "historyId" : "32374985bbcac288142c57cfc3b03ce5",
+  "time" : {
+    "start" : 1543751711755,
+    "stop" : 1543751712113,
+    "duration" : 358
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements",
+      "time" : {
+        "start" : 1543751711759,
+        "stop" : 1543751711811,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abbc888536ed1973",
+        "name" : "Request",
+        "source" : "abbc888536ed1973.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "e316136b6cdf3a25",
+        "name" : "Response",
+        "source" : "e316136b6cdf3a25.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/displayed",
+      "time" : {
+        "start" : 1543751711811,
+        "stop" : 1543751711876,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc9a3967dd03a6d6",
+        "name" : "Response",
+        "source" : "fc9a3967dd03a6d6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements",
+      "time" : {
+        "start" : 1543751711877,
+        "stop" : 1543751711881,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81fb5e5fb51eb419",
+        "name" : "Request",
+        "source" : "81fb5e5fb51eb419.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "498ab177da3afdff",
+        "name" : "Response",
+        "source" : "498ab177da3afdff.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/text",
+      "time" : {
+        "start" : 1543751711881,
+        "stop" : 1543751712112,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9799c267d9c39208",
+        "name" : "Response",
+        "source" : "9799c267d9c39208.json",
+        "type" : "application/json",
+        "size" : 122
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should land on \"Start your remortgage application\" page containing \"start_your_remortgage_application\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bf7688f167d1adf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751491042,
+        "stop" : 1543751491043,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "55c8b00b3f895ab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751403577,
+        "stop" : 1543751403701,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "5c96c14436c90814",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751073313,
+        "stop" : 1543751073314,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c2f98857c798e1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750642303,
+        "stop" : 1543750642432,
+        "duration" : 129
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cca73e3eebd63cd5.json",
+  "parameterValues" : [ "chrome" ]
+}

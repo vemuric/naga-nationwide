@@ -1,0 +1,58 @@
+{
+  "uid" : "4047007dea10b377",
+  "name" : "I select \"apply_5_years_fixed\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I select \"apply_5_years_fixed\"",
+  "historyId" : "c127db3212c7ae97a364f54a349acf1f",
+  "time" : {
+    "start" : 1543751491042,
+    "stop" : 1543751491042,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I select \"apply_5_years_fixed\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4047007dea10b377.json",
+  "parameterValues" : [ "chrome" ]
+}

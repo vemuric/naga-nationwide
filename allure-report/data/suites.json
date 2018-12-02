@@ -1,0 +1,285 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Find a mortgage rate Find mortgage rates",
+    "children" : [ {
+      "name" : "I open the url \"https://www.nationwide.co.uk\"",
+      "uid" : "dcbbf976ba79627",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751673823,
+        "stop" : 1543751680293,
+        "duration" : 6470
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I hover on Mortgages",
+      "uid" : "217d50f8a16bf922",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751680293,
+        "stop" : 1543751681697,
+        "duration" : 1404
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select Mortgage rates for new customers",
+      "uid" : "b968039e6b35bf56",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751681697,
+        "stop" : 1543751690130,
+        "duration" : 8433
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should land on \"Search for a Nationwide mortgage\" page containing \"search_for_nationwide_mortgage_header\"",
+      "uid" : "9723fcd011af491a",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751690130,
+        "stop" : 1543751690784,
+        "duration" : 654
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"do_you_have_nationwide_mortgage_no\"",
+      "uid" : "76343de67c2a86c8",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751690784,
+        "stop" : 1543751691014,
+        "duration" : 230
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"type_of_mortgages\"",
+      "uid" : "51c8e05c0822ada4",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751691015,
+        "stop" : 1543751691125,
+        "duration" : 110
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"i'm_changing_lender\"",
+      "uid" : "3324e8d152bde842",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751691126,
+        "stop" : 1543751691475,
+        "duration" : 349
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"property_value_inputfield\"",
+      "uid" : "fc38ec42facd385b",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751691475,
+        "stop" : 1543751691670,
+        "duration" : 195
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill \"property_value_inputfield\" with 300000",
+      "uid" : "e1af4e5ca2f192fd",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751691670,
+        "stop" : 1543751692187,
+        "duration" : 517
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill \"mortgage_amount_inputfield\" with 150000",
+      "uid" : "4a27945f1b515d10",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751692188,
+        "stop" : 1543751692398,
+        "duration" : 210
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill \"term_inputfield\" with 30",
+      "uid" : "8bb5d3612b4c5a87",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751692399,
+        "stop" : 1543751692752,
+        "duration" : 353
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"find_mortgage_rate_button\"",
+      "uid" : "af2e761bc0241875",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751692753,
+        "stop" : 1543751693202,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should be presented with available mortgages",
+      "uid" : "d948ae822eb6d9d2",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751693202,
+        "stop" : 1543751698264,
+        "duration" : 5062
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"fixed_rate_checkbox\"",
+      "uid" : "fa44bdccf695e186",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751698265,
+        "stop" : 1543751698439,
+        "duration" : 174
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"product_withfee_checkbox\"",
+      "uid" : "37ce6022174a129a",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751703443,
+        "stop" : 1543751703810,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I wait for the filter to be applied",
+      "uid" : "6bdc197e1ccde978",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751703812,
+        "stop" : 1543751708817,
+        "duration" : 5005
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"2_years_Fixed\"",
+      "uid" : "20994e389ebb6d49",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751708818,
+        "stop" : 1543751709075,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"3_years_Fixed\"",
+      "uid" : "7776fd7d496ea724",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751709075,
+        "stop" : 1543751709134,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"5_years_Fixed\"",
+      "uid" : "d76aa9b48c6d5696",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751709134,
+        "stop" : 1543751709199,
+        "duration" : 65
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see \"10_years_Fixed\"",
+      "uid" : "4b593be00ff27e5a",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751709199,
+        "stop" : 1543751709336,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"more_info_apply\"",
+      "uid" : "8775f3f663762f84",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751709336,
+        "stop" : 1543751709500,
+        "duration" : 164
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select \"apply_5_years_fixed\"",
+      "uid" : "3a885e139ade02ab",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751709500,
+        "stop" : 1543751711754,
+        "duration" : 2254
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should land on \"Start your remortgage application\" page containing \"start_your_remortgage_application\"",
+      "uid" : "cca73e3eebd63cd5",
+      "parentUid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751711755,
+        "stop" : 1543751712113,
+        "duration" : 358
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "4d6b9188bc21d22be1d6647de9cf7cd6"
+  } ]
+}

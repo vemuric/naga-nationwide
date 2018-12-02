@@ -1,0 +1,212 @@
+{
+  "uid" : "4cebbcb19489b592",
+  "name" : "I select Mortgage rates for new customers",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I select Mortgage rates for new customers",
+  "historyId" : "fd514f8739f3b079352714f9ebb60d72",
+  "time" : {
+    "start" : 1543750613747,
+    "stop" : 1543750620766,
+    "duration" : 7019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/elements",
+      "time" : {
+        "start" : 1543750613770,
+        "stop" : 1543750613801,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91e55ddbddf66c37",
+        "name" : "Request",
+        "source" : "91e55ddbddf66c37.json",
+        "type" : "application/json",
+        "size" : 118
+      }, {
+        "uid" : "d330ed88ad18e42e",
+        "name" : "Response",
+        "source" : "d330ed88ad18e42e.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element/0.20540781245415296-2/displayed",
+      "time" : {
+        "start" : 1543750613802,
+        "stop" : 1543750613856,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "871902f89e8d3da5",
+        "name" : "Response",
+        "source" : "871902f89e8d3da5.json",
+        "type" : "application/json",
+        "size" : 92
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/elements",
+      "time" : {
+        "start" : 1543750614254,
+        "stop" : 1543750614270,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8aaa24d643de2b93",
+        "name" : "Request",
+        "source" : "8aaa24d643de2b93.json",
+        "type" : "application/json",
+        "size" : 118
+      }, {
+        "uid" : "bf65a6ef3ec1bc3",
+        "name" : "Response",
+        "source" : "bf65a6ef3ec1bc3.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element/0.20540781245415296-2/displayed",
+      "time" : {
+        "start" : 1543750614270,
+        "stop" : 1543750614389,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b41176dfa3541d98",
+        "name" : "Response",
+        "source" : "b41176dfa3541d98.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element",
+      "time" : {
+        "start" : 1543750614390,
+        "stop" : 1543750614392,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0dc60c5734c7b2b",
+        "name" : "Request",
+        "source" : "e0dc60c5734c7b2b.json",
+        "type" : "application/json",
+        "size" : 118
+      }, {
+        "uid" : "23732a5cc808b025",
+        "name" : "Response",
+        "source" : "23732a5cc808b025.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element/0.20540781245415296-2/click",
+      "time" : {
+        "start" : 1543750614392,
+        "stop" : 1543750620765,
+        "duration" : 6373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "befb30b49e6bec8f",
+        "name" : "Response",
+        "source" : "befb30b49e6bec8f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I select Mortgage rates for new customers"
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cebbcb19489b592.json",
+  "parameterValues" : [ "chrome" ]
+}

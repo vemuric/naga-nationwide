@@ -1,0 +1,164 @@
+{
+  "uid" : "4c333549a241ff1d",
+  "name" : "I select \"fixed_rate_checkbox\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I select \"fixed_rate_checkbox\"",
+  "historyId" : "f80d481bd74797e3e7e3314c4d9f3bb",
+  "time" : {
+    "start" : 1543750628694,
+    "stop" : 1543750628858,
+    "duration" : 164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/elements",
+      "time" : {
+        "start" : 1543750628694,
+        "stop" : 1543750628698,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7a4dd6db25c7fbf",
+        "name" : "Request",
+        "source" : "a7a4dd6db25c7fbf.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "3cc3213f2c067294",
+        "name" : "Response",
+        "source" : "3cc3213f2c067294.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element/0.10761348896321987-10/displayed",
+      "time" : {
+        "start" : 1543750628698,
+        "stop" : 1543750628774,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48ea603fc2dc9afe",
+        "name" : "Response",
+        "source" : "48ea603fc2dc9afe.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element",
+      "time" : {
+        "start" : 1543750628775,
+        "stop" : 1543750628779,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "216448346d72ee6c",
+        "name" : "Request",
+        "source" : "216448346d72ee6c.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "adccdb1b2bbc7b30",
+        "name" : "Response",
+        "source" : "adccdb1b2bbc7b30.json",
+        "type" : "application/json",
+        "size" : 138
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/3f43b11328e509b8c128efa134bad4c2/element/0.10761348896321987-10/click",
+      "time" : {
+        "start" : 1543750628779,
+        "stop" : 1543750628857,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "825ff59eb1a96cce",
+        "name" : "Response",
+        "source" : "825ff59eb1a96cce.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I select \"fixed_rate_checkbox\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c333549a241ff1d.json",
+  "parameterValues" : [ "chrome" ]
+}

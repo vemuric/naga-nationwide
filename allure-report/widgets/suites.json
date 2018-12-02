@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4d6b9188bc21d22be1d6647de9cf7cd6",
+    "name" : "Find a mortgage rate Find mortgage rates",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    }
+  } ]
+}

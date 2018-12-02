@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"C:\\\\Nationwide test\\\\nationawide\\\\src\\\\features\\\\find-mortgage-rate.feature\"]" ],
+  "name" : "spec files"
+} ]

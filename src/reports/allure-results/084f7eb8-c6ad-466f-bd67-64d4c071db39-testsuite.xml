@@ -1,0 +1,1044 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543751673809' stop='1543751712115'>
+    <name>Find a mortgage rate Find mortgage rates</name>
+    <title>Find a mortgage rate Find mortgage rates</title>
+    <test-cases>
+        <test-case start='1543751673823' status='passed' stop='1543751680293'>
+            <name>I open the url "https://www.nationwide.co.uk"</name>
+            <title>I open the url "https://www.nationwide.co.uk"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751673827' status='passed' stop='1543751679797'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/url</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/url</title>
+                    <attachments>
+                        <attachment title='Request' source='61034010-66d9-4bc3-b8e1-370c0c9f7c9b-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='34e1d84f-a2e3-4fea-8314-cf4697975fd3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751679802' status='passed' stop='1543751680286'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/execute</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='70bddbb9-27a6-4973-a683-47938341a0fa-attachment.json' type='application/json' size='141'/>
+                        <attachment title='Response' source='78cff379-53de-4316-afe5-6642ecad72d2-attachment.json' type='application/json' size='97'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751680293' status='passed' stop='1543751681697'>
+            <name>I hover on Mortgages</name>
+            <title>I hover on Mortgages</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751680315' status='passed' stop='1543751681342'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bb19fd88-e10f-4773-a2cf-81668b566774-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='7e387493-37fa-4e6b-a2b0-1548dbf6d147-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751681343' status='passed' stop='1543751681674'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-1/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='260d6c9a-427f-4f1e-8f3d-7adb2ff58143-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751681675' status='passed' stop='1543751681686'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8872fe71-7b44-4209-a1cd-39f3c2e83b7a-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='fe77318d-57d4-4735-91d1-1d8c1d40a6b0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751681686' status='passed' stop='1543751681696'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/moveto</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/moveto</title>
+                    <attachments>
+                        <attachment title='Request' source='7a3c3030-970e-475b-9cd4-35e02f34493e-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='ce7bf431-9662-4947-88c5-b5138aafdd33-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751681697' status='passed' stop='1543751690130'>
+            <name>I select Mortgage rates for new customers</name>
+            <title>I select Mortgage rates for new customers</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751681698' status='passed' stop='1543751681702'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='55feb3b6-1c11-4450-8444-e6f1666a0431-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='52b9de19-a1f1-45ae-b9cf-119b8ee8654b-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751681702' status='passed' stop='1543751681704'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='9dd5e20c-d00b-4163-ae53-52b22a0543bc-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751682051' status='passed' stop='1543751682121'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7a1248f5-e0f8-4bbf-97a9-ef1e77bca926-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='497f6991-e0a7-4bc9-b6b5-2b681149a385-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751682122' status='passed' stop='1543751682123'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='2c580b39-6179-45a4-9421-62714eb7cbfb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751682124' status='passed' stop='1543751682344'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bb05e5dd-c007-4b2d-a904-16dd3a9b3c18-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='2dc2f9e9-05e8-43b2-a226-36407778c88f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751682345' status='passed' stop='1543751690127'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='ffcda450-496d-4df7-bf3f-0609c49088f1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751690130' status='passed' stop='1543751690784'>
+            <name>I should land on "Search for a Nationwide mortgage" page containing "search_for_nationwide_mortgage_header"</name>
+            <title>I should land on "Search for a Nationwide mortgage" page containing "search_for_nationwide_mortgage_header"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751690140' status='passed' stop='1543751690407'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='11805259-6122-4f51-a1f4-06ee2a57702d-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='1d03112d-4edf-47fc-8384-6da15e8684e5-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690408' status='passed' stop='1543751690409'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-1/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='2d968176-7c54-4053-9867-357e2c687a3a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690410' status='passed' stop='1543751690427'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='203968de-3dca-4fcb-94a3-3689d4cfbdba-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='a7339782-9a0d-4ad5-b471-e3181414fcb9-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690428' status='passed' stop='1543751690744'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-1/text</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='0f841fa7-7860-4945-9ef4-8a47f606a6ae-attachment.json' type='application/json' size='121'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751690784' status='passed' stop='1543751691014'>
+            <name>I select "do_you_have_nationwide_mortgage_no"</name>
+            <title>I select "do_you_have_nationwide_mortgage_no"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751690787' status='passed' stop='1543751690813'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='14c8261e-b4ff-48b5-aca6-1f96cd86d991-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='e0c462f1-50d8-440f-b831-8aa88d9d697d-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690813' status='passed' stop='1543751690852'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-2/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='3c143b67-fcfc-4301-bf37-3a44848bd055-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690853' status='passed' stop='1543751690868'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2b885569-6afa-4c14-9825-79ba02e12917-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='bc84aabd-3661-4534-b250-6158f447643d-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751690869' status='passed' stop='1543751691014'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-2/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='55914962-7971-4a5f-910e-90c3bc343539-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751691015' status='passed' stop='1543751691125'>
+            <name>I should see "type_of_mortgages"</name>
+            <title>I should see "type_of_mortgages"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751691016' status='passed' stop='1543751691114'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0676b6ea-7d00-45f5-89e6-db955c06ef9f-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='80d35304-1079-4be1-a838-13e0b097d65f-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691116' status='passed' stop='1543751691124'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-3/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='44a061d4-199d-42fd-acad-b6ba4113633f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751691126' status='passed' stop='1543751691475'>
+            <name>I select "i'm_changing_lender"</name>
+            <title>I select "i'm_changing_lender"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751691195' status='passed' stop='1543751691221'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='60a0bc92-432c-4923-ac7c-f872fa6d1714-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='aeecb135-645a-437d-aa6c-082cec663c3b-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691221' status='passed' stop='1543751691269'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-4/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-4/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='0304a6b4-928b-4bbc-8eca-a6bee2f8d486-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691270' status='passed' stop='1543751691301'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5fa9fb9c-c3d0-497a-99d8-0b74113b1219-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='cbeccaae-faa0-468b-a608-940349fe893b-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691301' status='passed' stop='1543751691475'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-4/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f49c3943-4a85-40df-b578-aab27f110b66-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751691475' status='passed' stop='1543751691670'>
+            <name>I should see "property_value_inputfield"</name>
+            <title>I should see "property_value_inputfield"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751691476' status='passed' stop='1543751691480'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3a908e09-44c0-484a-b60a-dc62a7da567f-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='d5896806-5cd0-437d-b9ad-914cf7794baa-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691480' status='passed' stop='1543751691668'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-5/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-5/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='615eee88-01ba-415a-8b60-4865190e6423-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751691670' status='passed' stop='1543751692187'>
+            <name>I fill "property_value_inputfield" with 300000</name>
+            <title>I fill "property_value_inputfield" with 300000</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751691672' status='passed' stop='1543751691697'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='24a4b5ba-c138-4a2d-a147-31bddb49fbdb-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='ffa6cd94-a8d8-4fd7-942d-025532d3bc51-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691697' status='passed' stop='1543751691918'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-5/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-5/click</title>
+                    <attachments>
+                        <attachment title='Response' source='bc9ca7f7-73ed-434d-9f09-e9b35005838c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751691927' status='passed' stop='1543751692186'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='ef28d1cd-e83e-4e16-b412-2cec74b660fc-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='dcbe0bd7-28d6-4b16-9200-845cdf9f7bac-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751692188' status='passed' stop='1543751692398'>
+            <name>I fill "mortgage_amount_inputfield" with 150000</name>
+            <title>I fill "mortgage_amount_inputfield" with 150000</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751692188' status='passed' stop='1543751692205'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0391f95a-a5ba-4a7a-9467-6f4ac8e0ca51-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='6c6dcccc-67a7-4b77-a07f-efe7c32d3d5b-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692205' status='passed' stop='1543751692317'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-6/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='dbee4c06-0a6a-414c-bb55-b292fb9dab10-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692320' status='passed' stop='1543751692397'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='c9f35848-16c3-4e5f-9e09-577b8ffabff0-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='2c64434f-9079-4620-9db4-913cbf074ddd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751692399' status='passed' stop='1543751692752'>
+            <name>I fill "term_inputfield" with 30</name>
+            <title>I fill "term_inputfield" with 30</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751692404' status='passed' stop='1543751692440'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3a2fa904-6374-495c-914a-5fc199da5e54-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='cf76844b-2135-4da8-8ceb-be1959196083-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692440' status='passed' stop='1543751692640'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-7/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-7/click</title>
+                    <attachments>
+                        <attachment title='Response' source='93ba41a9-1743-4b99-97ca-036a2e2db8a2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692641' status='passed' stop='1543751692752'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='7bf3bbe8-677c-4e24-8394-2d38f76b072e-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='9c94961a-c0a9-4820-a31e-381f178dead8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751692753' status='passed' stop='1543751693202'>
+            <name>I select "find_mortgage_rate_button"</name>
+            <title>I select "find_mortgage_rate_button"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751692755' status='passed' stop='1543751692808'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='302a36ba-e45d-4137-b4e2-51d7e8cb6faa-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='7d0a737c-d266-4fe5-a415-75c1878672ce-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692809' status='passed' stop='1543751692845'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-8/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-8/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='d8546b6d-1a1f-43db-8534-890f6c8ebff8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692846' status='passed' stop='1543751692892'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ccdf593-e66f-4e0a-94ea-afa2cb97c6fb-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='fa9192c3-4aa1-4f4b-84a5-3e9c2eb1d174-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751692892' status='passed' stop='1543751693201'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-8/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-8/click</title>
+                    <attachments>
+                        <attachment title='Response' source='5da9858d-d4e7-4053-9c8d-46373ef38fed-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751693202' status='passed' stop='1543751698264'>
+            <name>I should be presented with available mortgages</name>
+            <title>I should be presented with available mortgages</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751698188' status='passed' stop='1543751698214'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d69d9033-7412-451a-9df7-53268d4136a5-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='e88cb1ff-6a61-461a-8cbb-ad84ee74a527-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751698214' status='passed' stop='1543751698264'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-9/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-9/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='41d0ead7-a784-47a2-86e7-619940875828-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751698265' status='passed' stop='1543751698439'>
+            <name>I select "fixed_rate_checkbox"</name>
+            <title>I select "fixed_rate_checkbox"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751698265' status='passed' stop='1543751698268'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='99ba4b6c-0bba-4dd4-9203-55511325872b-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='94df225d-da4a-40e7-a5be-82e7c57aea30-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751698269' status='passed' stop='1543751698290'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-10/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-10/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='37f4a0ca-393e-4f0d-b6a0-bb4475c4d608-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751698290' status='passed' stop='1543751698316'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6974906-abe6-48ab-a056-6b6de59c58e1-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='d829b79a-c2d6-4534-9a81-19d77e47bcc9-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751698317' status='passed' stop='1543751698438'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-10/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-10/click</title>
+                    <attachments>
+                        <attachment title='Response' source='6700354e-9c69-4668-854b-62c0edefc8fa-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751698439' status='passed' stop='1543751703443'>
+            <name>I wait for the filter to be applied</name>
+            <title>I wait for the filter to be applied</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751703443' status='passed' stop='1543751703810'>
+            <name>I select "product_withfee_checkbox"</name>
+            <title>I select "product_withfee_checkbox"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751703478' status='passed' stop='1543751703524'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c8cd9fe0-e9f4-41c3-aa32-aef16791d67d-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='3a45c192-a945-42b8-82a7-e1d7b4dae64c-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751703525' status='passed' stop='1543751703626'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-11/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-11/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='897d4a00-e40f-4fc4-a53d-41cac9a0dc1d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751703627' status='passed' stop='1543751703711'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='614f5bc5-a6f5-40b4-a7fd-e9c2e24b97be-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='a09e527d-aa09-4ce4-b70e-0680367f2ffd-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751703712' status='passed' stop='1543751703808'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-11/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-11/click</title>
+                    <attachments>
+                        <attachment title='Response' source='dd1c1f24-346f-4b77-8432-84f65ec1e73e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751703812' status='passed' stop='1543751708817'>
+            <name>I wait for the filter to be applied</name>
+            <title>I wait for the filter to be applied</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751708818' status='passed' stop='1543751709075'>
+            <name>I should see "2_years_Fixed"</name>
+            <title>I should see "2_years_Fixed"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751708820' status='passed' stop='1543751709049'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a37d96c1-2fcc-47cb-85ed-3eb6a385dbd2-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='55a5b559-7336-42ba-8d9d-c58f01497b03-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709049' status='passed' stop='1543751709074'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-12/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-12/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='6feec322-92bc-4a1c-84d8-4f7d028e70f3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751709075' status='passed' stop='1543751709134'>
+            <name>I should see "3_years_Fixed"</name>
+            <title>I should see "3_years_Fixed"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751709078' status='passed' stop='1543751709105'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='df9ed1ac-031d-4de8-bcc8-28c7e8d35e27-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='c2c6202f-53c1-4884-9a63-cfd9342b539c-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709105' status='passed' stop='1543751709133'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-13/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-13/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='959ebf05-f076-45ab-9f90-4e928a65c662-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751709134' status='passed' stop='1543751709199'>
+            <name>I should see "5_years_Fixed"</name>
+            <title>I should see "5_years_Fixed"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751709136' status='passed' stop='1543751709167'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a6e942be-2e0c-4573-9091-6d11f1ffb015-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='5383df20-22d3-4492-8e6d-9b002b5c6ba9-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709167' status='passed' stop='1543751709198'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-14/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-14/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='0c1ec608-361a-4eb2-b87b-28579325bb1d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751709199' status='passed' stop='1543751709336'>
+            <name>I should see "10_years_Fixed"</name>
+            <title>I should see "10_years_Fixed"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751709202' status='passed' stop='1543751709334'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='82d62f5f-dfed-427c-b1e2-6d5b5f45ffe0-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='2bb80b6e-b7ae-4cc5-abfd-2daa1f3afe61-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709334' status='passed' stop='1543751709336'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-15/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-15/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='6be57faf-d5ec-4345-9af1-51fd3cf03867-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751709336' status='passed' stop='1543751709500'>
+            <name>I select "more_info_apply"</name>
+            <title>I select "more_info_apply"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751709337' status='passed' stop='1543751709340'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ebb5623f-863c-4d9f-bec0-22376644ccd7-attachment.json' type='application/json' size='125'/>
+                        <attachment title='Response' source='e4e2edca-537a-4e52-a04a-2363b7511c8e-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709340' status='passed' stop='1543751709342'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-16/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-16/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='98c0adf3-69f5-4641-9224-0e4a00502419-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709342' status='passed' stop='1543751709352'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='725e2000-c6c8-4195-a71f-0dfaa3cd201c-attachment.json' type='application/json' size='125'/>
+                        <attachment title='Response' source='00dcb13a-9bac-4900-9ab5-e91ed320153d-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709352' status='passed' stop='1543751709499'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-16/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-16/click</title>
+                    <attachments>
+                        <attachment title='Response' source='c8bc9460-f454-4f4c-818c-99c08d08e016-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751709500' status='passed' stop='1543751711754'>
+            <name>I select "apply_5_years_fixed"</name>
+            <title>I select "apply_5_years_fixed"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751709503' status='passed' stop='1543751709613'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='428fa8c7-4197-4cc8-be49-ed4cbb4574f1-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='9763a5e8-db26-4177-8bc0-b68bea362bfc-attachment.json' type='application/json' size='162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709614' status='passed' stop='1543751709645'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-17/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-17/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='43fde50d-2dfe-4818-9ae7-46af2893a1f8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709647' status='passed' stop='1543751709735'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f30ce4a4-2fd4-4427-942d-c9090c804c99-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='f78a0922-15fe-4c06-b613-67c47eae8cf3-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751709735' status='passed' stop='1543751711753'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-17/click</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-17/click</title>
+                    <attachments>
+                        <attachment title='Response' source='003cccfb-ab1f-481b-8e2f-62731cc935b4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543751711755' status='passed' stop='1543751712113'>
+            <name>I should land on "Start your remortgage application" page containing "start_your_remortgage_application"</name>
+            <title>I should land on "Start your remortgage application" page containing "start_your_remortgage_application"</title>
+            <labels>
+                <label name='feature' value='Find a mortgage rate'/>
+                <label name='story' value='Find mortgage rates'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Nationwide test\\nationawide\\src\\features\\find-mortgage-rate.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543751711759' status='passed' stop='1543751711811'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='898b0d9e-3913-4fd9-ab32-16914dfdcc17-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='8198f7ff-e64a-408c-b4c1-42ef7e0d3b75-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751711811' status='passed' stop='1543751711876'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/displayed</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='7488b298-76be-4f64-b8db-ada2de4ab2d2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751711877' status='passed' stop='1543751711881'>
+                    <name>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</name>
+                    <title>POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9134f476-04ca-492d-9a76-5ab569c507fd-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='5e779b6e-f393-43fb-af8b-e8b9ef3715b4-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543751711881' status='passed' stop='1543751712112'>
+                    <name>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/text</name>
+                    <title>GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.4068850860634168-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='3e1bda47-2faf-45da-9ae5-5adbcccacb29-attachment.json' type='application/json' size='122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

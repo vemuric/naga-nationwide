@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//div[@class='ratesTableWrapper _5yr']//span[contains(text(),' for 5 yr  Fixed')]/.."
+}

@@ -1,0 +1,22 @@
+{
+    "mortgages_hover": "#MortgagesNavItem",
+    "new_mortgages": "a[data-nbs-analytics-options*='New mortgage customers|Mortgage rates']",
+    "search_for_nationwide_mortgage_header": "h1.titleStyle01.blue",
+    "do_you_have_nationwide_mortgage_no": "#selectorItemHaveNationwideMortgage1>span",
+    "type_of_mortgages": "#NationwideMortgageTypeNoLabel",
+    "i'm_changing_lender": "#selectorItemNationwideMortgageTypeNo2>span",
+    "property_value_inputfield": "input[data-di-id='#SearchPropertyValue']",
+    "mortgage_amount_inputfield": "input[data-di-id='#SearchMortgageAmount']",
+    "term_inputfield": "#SearchMortgageTerm",
+    "find_mortgage_rate_button": "#myButton",
+    "available_mortgages": "h2.titleStyle01.blue",
+    "fixed_rate_checkbox": "label[for='input-fixed']",
+    "product_withfee_checkbox": "label[for='product-fee-input-fee']",
+    "2_years_Fixed": "//th[contains(@class,'notOnMobile')]//h3[contains(text(),'2 yr  Fixed')]",
+    "3_years_Fixed": "//th[contains(@class,'notOnMobile')]//h3[contains(text(),'3 yr  Fixed')]",
+    "5_years_Fixed": "//th[contains(@class,'notOnMobile')]//h3[contains(text(),'5 yr  Fixed')]",
+    "10_years_Fixed": "//th[contains(@class,'notOnMobile')]//h3[contains(text(),'10 yr  Fixed')]",
+    "more_info_apply" : "//div[@class='ratesTableWrapper _5yr']//span[contains(text(),' for 5 yr  Fixed')]/..",
+    "apply_5_years_fixed":"a[data-nbs-analytics-options*='5 yr Fixed |Apply']",
+    "start_your_remortgage_application" :"//h1"    
+}

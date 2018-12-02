@@ -1,0 +1,231 @@
+[ {
+  "uid" : "76343de67c2a86c8",
+  "name" : "I select \"do_you_have_nationwide_mortgage_no\"",
+  "time" : {
+    "start" : 1543751690784,
+    "stop" : 1543751691014,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a885e139ade02ab",
+  "name" : "I select \"apply_5_years_fixed\"",
+  "time" : {
+    "start" : 1543751709500,
+    "stop" : 1543751711754,
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cca73e3eebd63cd5",
+  "name" : "I should land on \"Start your remortgage application\" page containing \"start_your_remortgage_application\"",
+  "time" : {
+    "start" : 1543751711755,
+    "stop" : 1543751712113,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d948ae822eb6d9d2",
+  "name" : "I should be presented with available mortgages",
+  "time" : {
+    "start" : 1543751693202,
+    "stop" : 1543751698264,
+    "duration" : 5062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b593be00ff27e5a",
+  "name" : "I should see \"10_years_Fixed\"",
+  "time" : {
+    "start" : 1543751709199,
+    "stop" : 1543751709336,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8775f3f663762f84",
+  "name" : "I select \"more_info_apply\"",
+  "time" : {
+    "start" : 1543751709336,
+    "stop" : 1543751709500,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7776fd7d496ea724",
+  "name" : "I should see \"3_years_Fixed\"",
+  "time" : {
+    "start" : 1543751709075,
+    "stop" : 1543751709134,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc38ec42facd385b",
+  "name" : "I should see \"property_value_inputfield\"",
+  "time" : {
+    "start" : 1543751691475,
+    "stop" : 1543751691670,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a27945f1b515d10",
+  "name" : "I fill \"mortgage_amount_inputfield\" with 150000",
+  "time" : {
+    "start" : 1543751692188,
+    "stop" : 1543751692398,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af2e761bc0241875",
+  "name" : "I select \"find_mortgage_rate_button\"",
+  "time" : {
+    "start" : 1543751692753,
+    "stop" : 1543751693202,
+    "duration" : 449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20994e389ebb6d49",
+  "name" : "I should see \"2_years_Fixed\"",
+  "time" : {
+    "start" : 1543751708818,
+    "stop" : 1543751709075,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bdc197e1ccde978",
+  "name" : "I wait for the filter to be applied",
+  "time" : {
+    "start" : 1543751703812,
+    "stop" : 1543751708817,
+    "duration" : 5005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa44bdccf695e186",
+  "name" : "I select \"fixed_rate_checkbox\"",
+  "time" : {
+    "start" : 1543751698265,
+    "stop" : 1543751698439,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3324e8d152bde842",
+  "name" : "I select \"i'm_changing_lender\"",
+  "time" : {
+    "start" : 1543751691126,
+    "stop" : 1543751691475,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "217d50f8a16bf922",
+  "name" : "I hover on Mortgages",
+  "time" : {
+    "start" : 1543751680293,
+    "stop" : 1543751681697,
+    "duration" : 1404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37ce6022174a129a",
+  "name" : "I select \"product_withfee_checkbox\"",
+  "time" : {
+    "start" : 1543751703443,
+    "stop" : 1543751703810,
+    "duration" : 367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcbbf976ba79627",
+  "name" : "I open the url \"https://www.nationwide.co.uk\"",
+  "time" : {
+    "start" : 1543751673823,
+    "stop" : 1543751680293,
+    "duration" : 6470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bb5d3612b4c5a87",
+  "name" : "I fill \"term_inputfield\" with 30",
+  "time" : {
+    "start" : 1543751692399,
+    "stop" : 1543751692752,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b968039e6b35bf56",
+  "name" : "I select Mortgage rates for new customers",
+  "time" : {
+    "start" : 1543751681697,
+    "stop" : 1543751690130,
+    "duration" : 8433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1af4e5ca2f192fd",
+  "name" : "I fill \"property_value_inputfield\" with 300000",
+  "time" : {
+    "start" : 1543751691670,
+    "stop" : 1543751692187,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d76aa9b48c6d5696",
+  "name" : "I should see \"5_years_Fixed\"",
+  "time" : {
+    "start" : 1543751709134,
+    "stop" : 1543751709199,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51c8e05c0822ada4",
+  "name" : "I should see \"type_of_mortgages\"",
+  "time" : {
+    "start" : 1543751691015,
+    "stop" : 1543751691125,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9723fcd011af491a",
+  "name" : "I should land on \"Search for a Nationwide mortgage\" page containing \"search_for_nationwide_mortgage_header\"",
+  "time" : {
+    "start" : 1543751690130,
+    "stop" : 1543751690784,
+    "duration" : 654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

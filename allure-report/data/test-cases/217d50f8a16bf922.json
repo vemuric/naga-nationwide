@@ -1,0 +1,204 @@
+{
+  "uid" : "217d50f8a16bf922",
+  "name" : "I hover on Mortgages",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I hover on Mortgages",
+  "historyId" : "cb3fb50368de25d8df4e2f917bfa5351",
+  "time" : {
+    "start" : 1543751680293,
+    "stop" : 1543751681697,
+    "duration" : 1404
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements",
+      "time" : {
+        "start" : 1543751680315,
+        "stop" : 1543751681342,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e71a3f533da992",
+        "name" : "Request",
+        "source" : "e71a3f533da992.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "7103233c3e7d22c6",
+        "name" : "Response",
+        "source" : "7103233c3e7d22c6.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.6889263143164359-1/displayed",
+      "time" : {
+        "start" : 1543751681343,
+        "stop" : 1543751681674,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "472098d3041768d0",
+        "name" : "Response",
+        "source" : "472098d3041768d0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element",
+      "time" : {
+        "start" : 1543751681675,
+        "stop" : 1543751681686,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de9077ef4813f04e",
+        "name" : "Request",
+        "source" : "de9077ef4813f04e.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "aacf6d21865f5738",
+        "name" : "Response",
+        "source" : "aacf6d21865f5738.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/moveto",
+      "time" : {
+        "start" : 1543751681686,
+        "stop" : 1543751681696,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62ef8e48383b2343",
+        "name" : "Request",
+        "source" : "62ef8e48383b2343.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "9eb8e25a5ee532bc",
+        "name" : "Response",
+        "source" : "9eb8e25a5ee532bc.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I hover on Mortgages"
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc0e765c85355956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751476836,
+        "stop" : 1543751479970,
+        "duration" : 3134
+      }
+    }, {
+      "uid" : "866edbd1ccb9d9a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751371418,
+        "stop" : 1543751372467,
+        "duration" : 1049
+      }
+    }, {
+      "uid" : "8b1a8f873b23561c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751052996,
+        "stop" : 1543751061272,
+        "duration" : 8276
+      }
+    }, {
+      "uid" : "ddb1657b8ce1db2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750612333,
+        "stop" : 1543750613747,
+        "duration" : 1414
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "217d50f8a16bf922.json",
+  "parameterValues" : [ "chrome" ]
+}

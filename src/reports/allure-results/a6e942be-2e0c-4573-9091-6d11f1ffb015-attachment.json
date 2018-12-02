@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//th[contains(@class,'notOnMobile')]//h3[contains(text(),'5 yr  Fixed')]"
+}

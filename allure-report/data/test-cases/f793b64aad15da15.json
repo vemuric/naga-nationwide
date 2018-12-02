@@ -1,0 +1,122 @@
+{
+  "uid" : "f793b64aad15da15",
+  "name" : "I open the url \"https://www.nationwide.co.uk\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I open the url \"https://www.nationwide.co.uk\"",
+  "historyId" : "2b2f2b4a50dc2d4d755c486427abd00f",
+  "time" : {
+    "start" : 1543751046266,
+    "stop" : 1543751052995,
+    "duration" : 6729
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/75ef70484f837a805e7211d7a45403f0/url",
+      "time" : {
+        "start" : 1543751046270,
+        "stop" : 1543751051923,
+        "duration" : 5653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3fd287654a7ab32",
+        "name" : "Request",
+        "source" : "b3fd287654a7ab32.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "f48d727d5a201a80",
+        "name" : "Response",
+        "source" : "f48d727d5a201a80.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/75ef70484f837a805e7211d7a45403f0/execute",
+      "time" : {
+        "start" : 1543751051924,
+        "stop" : 1543751052994,
+        "duration" : 1070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb1cbcb40ffad0c0",
+        "name" : "Request",
+        "source" : "bb1cbcb40ffad0c0.json",
+        "type" : "application/json",
+        "size" : 141
+      }, {
+        "uid" : "df0a8de0ca25eb6",
+        "name" : "Response",
+        "source" : "df0a8de0ca25eb6.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the url \"https://www.nationwide.co.uk\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f793b64aad15da15.json",
+  "parameterValues" : [ "chrome" ]
+}

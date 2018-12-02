@@ -1,0 +1,150 @@
+{
+  "uid" : "fc38ec42facd385b",
+  "name" : "I should see \"property_value_inputfield\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I should see \"property_value_inputfield\"",
+  "historyId" : "cafd047a519320e70a4ad3d677645b2a",
+  "time" : {
+    "start" : 1543751691475,
+    "stop" : 1543751691670,
+    "duration" : 195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/elements",
+      "time" : {
+        "start" : 1543751691476,
+        "stop" : 1543751691480,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a54b0372f7b63538",
+        "name" : "Request",
+        "source" : "a54b0372f7b63538.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "f824d37df78cdc9c",
+        "name" : "Response",
+        "source" : "f824d37df78cdc9c.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/element/0.14756918559171472-5/displayed",
+      "time" : {
+        "start" : 1543751691480,
+        "stop" : 1543751691668,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc6011d2d98a3985",
+        "name" : "Response",
+        "source" : "bc6011d2d98a3985.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see \"property_value_inputfield\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c21c7b01361aea85",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751491031,
+        "stop" : 1543751491031,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22f7f5824e800a65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751380515,
+        "stop" : 1543751380654,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "cb61550cd8f72784",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751073301,
+        "stop" : 1543751073302,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8f29ec0c00fb5f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750622026,
+        "stop" : 1543750622121,
+        "duration" : 95
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc38ec42facd385b.json",
+  "parameterValues" : [ "chrome" ]
+}

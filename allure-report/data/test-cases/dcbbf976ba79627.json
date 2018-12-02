@@ -1,0 +1,156 @@
+{
+  "uid" : "dcbbf976ba79627",
+  "name" : "I open the url \"https://www.nationwide.co.uk\"",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I open the url \"https://www.nationwide.co.uk\"",
+  "historyId" : "2b2f2b4a50dc2d4d755c486427abd00f",
+  "time" : {
+    "start" : 1543751673823,
+    "stop" : 1543751680293,
+    "duration" : 6470
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/url",
+      "time" : {
+        "start" : 1543751673827,
+        "stop" : 1543751679797,
+        "duration" : 5970
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef0fe054100e0d68",
+        "name" : "Request",
+        "source" : "ef0fe054100e0d68.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "c1096859bec608ed",
+        "name" : "Response",
+        "source" : "c1096859bec608ed.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e2ae4f7c3709f82f40e188427f069370/execute",
+      "time" : {
+        "start" : 1543751679802,
+        "stop" : 1543751680286,
+        "duration" : 484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79da50502891d033",
+        "name" : "Request",
+        "source" : "79da50502891d033.json",
+        "type" : "application/json",
+        "size" : 141
+      }, {
+        "uid" : "f4855e8e703957af",
+        "name" : "Response",
+        "source" : "f4855e8e703957af.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the url \"https://www.nationwide.co.uk\""
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b5f0cd63dae3baac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751471525,
+        "stop" : 1543751476836,
+        "duration" : 5311
+      }
+    }, {
+      "uid" : "8a5da82dafe0e768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751365037,
+        "stop" : 1543751371418,
+        "duration" : 6381
+      }
+    }, {
+      "uid" : "f793b64aad15da15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751046266,
+        "stop" : 1543751052995,
+        "duration" : 6729
+      }
+    }, {
+      "uid" : "877161e484481f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750606981,
+        "stop" : 1543750612333,
+        "duration" : 5352
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcbbf976ba79627.json",
+  "parameterValues" : [ "chrome" ]
+}

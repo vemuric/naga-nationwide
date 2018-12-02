@@ -1,0 +1,132 @@
+{
+  "uid" : "6bdc197e1ccde978",
+  "name" : "I wait for the filter to be applied",
+  "fullName" : "Find a mortgage rate Find mortgage rates.I wait for the filter to be applied",
+  "historyId" : "651f8dafb2b1ceaff40e515bfac17332",
+  "time" : {
+    "start" : 1543751703812,
+    "stop" : 1543751708817,
+    "duration" : 5005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Find a mortgage rate"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Find mortgage rates"
+  }, {
+    "name" : "suite",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testClass",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "testMethod",
+    "value" : "I wait for the filter to be applied"
+  }, {
+    "name" : "package",
+    "value" : "Find a mortgage rate Find mortgage rates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49adb470273f52b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751698439,
+        "stop" : 1543751703443,
+        "duration" : 5004
+      }
+    }, {
+      "uid" : "e0621c91afe7d0f2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751491038,
+        "stop" : 1543751491038,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8bd4b2eca176602b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751491036,
+        "stop" : 1543751491037,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f7122c270a4a690c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751394618,
+        "stop" : 1543751399622,
+        "duration" : 5004
+      }
+    }, {
+      "uid" : "3e3597a6e44a866c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543751389126,
+        "stop" : 1543751394129,
+        "duration" : 5003
+      }
+    }, {
+      "uid" : "cbb77eee157d9e5a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751073308,
+        "stop" : 1543751073309,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5b1b75378e9b2ae0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543751073307,
+        "stop" : 1543751073308,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "25e611c5f267dcf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750634214,
+        "stop" : 1543750639080,
+        "duration" : 4866
+      }
+    }, {
+      "uid" : "49b015654bc83adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543750628858,
+        "stop" : 1543750633862,
+        "duration" : 5004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bdc197e1ccde978.json",
+  "parameterValues" : [ "chrome" ]
+}
